@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&family=Aref+Ruqaa:wght@400;700&family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap');
+* {
+    box-sizing: border-box;
+}
+#wrapper { 
+    background-color:#ffffff;
+    padding: 0; 
+}
+body {
+    background-color:#ffffff; 
+    margin: 0;
+}
+#homehero {
+    height: 300px;
+    background-image: url("images/hero.jpg");
+    background-position:right bottom;
+    background-repeat: no-repeat;
+    position:relative;
+    background-size: cover;
+    padding-top: 3%;
+    font-family: "Almendra SC";
+    letter-spacing: 0.2em;
+    font-size: 1.2em;
+}
+#homehero a {
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 10%;
+}
+#homehero a:hover {
+    color: #ACBFA4;
+}
+header {
+    background-color: #073B11;
+    background-image: url("images/gslogo.png");
+    background-repeat: no-repeat;
+    background-size: 8%;
+    background-position: left;
+    padding: 1px 0 10px 0;
+    font-family: "Almendra SC";
+    letter-spacing: 0.2em;
+    border-bottom: 2px solid #ffffff;
+}
+header a {
+    text-decoration: none;
+    padding-left: 90px;
+    color: #ffffff;
+}
+header a:visited {
+    color: #E2E8CE;
+}
+header a:hover {
+    color: #ACBFA4;
+}
+nav {
+    text-align: center; 
+    font-family: "Aref Ruqaa";
+    font-size: 1.2em;
+    background-color: #073B11;
+}
+nav a { 
+    text-decoration: none; 
+}
+nav a:link {
+    color: #ffffff
+}
+nav a:visited {
+    color: #E2E8CE;
+}
+nav a:hover {
+    color: #ACBFA4;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.25em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    border-right: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    padding: .3em 1em;
+    width:100%
+}
+main {
+    background-color: #ffffff;
+    display: block;
+    padding: 0 0 2em 1.2em;
+    font-family: "Yrsa";
+    font-size: 1.3em
+}
+h2 {
+    font-size: 2em;
+}
+h2, h3 {
+    color: #687792;
+    font-family: "Aref Ruqaa";
+}
+main ul {
+    padding-left: 2em;
+}
+.cards {
+  max-width: 80%;
+  margin: 1em auto;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-gap: 20px;
+}
+.card {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    padding: 0px 5px 15px 10px;
+}
+.card h3 {
+    background-color: #073B11;
+    color: #ffffff;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+.card img {
+    padding-top: 8px;
+    padding-right: 5px;
+}
+.button {
+    text-align: center;
+}
+.button a {
+    text-decoration: none;
+    background-color: #073B11;
+    padding: 2%;
+    color: #ffffff;
+}
+.button a:hover {
+    background-color: #ACBFA4;
+    color:#073B11
+}
+img {
+ border-style: none;
+ max-width: 100%;
+ height: auto;
+}
+.floatright {
+    float:right;
+    border-radius:5px;
+    margin-top: -8%;
+    margin-left: 2%;
+}
+.scientific {
+    margin-top: -4%;
+    margin-left: 2%;
+    
+}
+.articles {
+    padding-left: 5%;
+}
+#mobile {
+    display: inline;
+}
+#desktop {
+    display: none;
+}
+footer {
+    padding: .5em 1em 4em 1em;
+    background-color: #073B11;
+    background-image: url("images/gslogo.png");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center bottom;
+    color: #ffffff; 
+    font-size: .60em; 
+    font-style: italic; 
+}
+footer a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
