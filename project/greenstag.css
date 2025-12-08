@@ -34,7 +34,7 @@ header {
     background-color: #073B11;
     background-image: url("images/gslogo.png");
     background-repeat: no-repeat;
-    background-size: 8%;
+    background-size: 55px;
     background-position: left;
     padding: 1px 0 10px 0;
     font-family: "Almendra SC";
@@ -178,7 +178,27 @@ footer a {
 }
 
 @media (min-width: 600px) {
-    
+    header {
+		padding-left: 0;
+		text-align: center;
+	}
+	h1 {
+		font-size: 3em;
+	}
+	nav ul {
+		flex-flow: row nowrap;
+		justify-content: space-around;
+	}
+    #homehero {
+		background-image: url("images/hero.jpg");
+		height: 50vh;
+	}
+    #mobile {
+		display: none;
+	}
+	#desktop {
+		display: inline;
+	}
 }
 
 @media (min-width: 1024px) {
